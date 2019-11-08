@@ -12,9 +12,11 @@ export class AppComponent implements OnInit {
   constructor(private flexModal: FlexModalService) {
 
   }
-
+  // helpMessage() {
+  //   this.flexModal.openDialog = ''
+  // }
   ngOnInit() {
   }
-
+  
 
 }
